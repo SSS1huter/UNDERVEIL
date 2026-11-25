@@ -790,3 +790,36 @@ button.vx-btn{appearance:none;border:0;cursor:pointer;font:inherit}
 /* 발레르 01장 인물 칸 얼굴컷 (11/25) */
 .vx-face{display:block;flex-shrink:0;width:6rem;height:8rem;object-fit:cover;object-position:center top;background:#0a101b;
   box-shadow:0 0 0 1px #cca35588,0 0 0 4px #112,0 0 0 5px #cca35544,0 10px 22px #0009}
+
+/* ---------- 발행처 표기 · 공문 도장 (11/25) ---------- */
+/* 사이트 전체: 이름 아래 '협약원 봉인 서고 / 일반 열람용 사본' */
+.vx-issuer{display:grid;gap:1px;padding:5px 10px 6px;border:1px solid #ca55;border-left:3px solid #ca5;background:#cca5550d;line-height:1.45}
+.vx-issuer b{font-weight:800;font-size:11.5px;letter-spacing:.08em;color:#e8ce96}
+.vx-issuer span{font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;color:#a8a29e}
+.vx-bm-t{display:grid;line-height:1.2}
+.vx-bm-t small{margin-top:3px;font-family:var(--sans);font-weight:600;font-size:9.5px;letter-spacing:.04em;color:#c9b27f;white-space:nowrap}
+.vx-foot .iss{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px}
+.vx-foot .iss span{font-family:var(--sans);font-weight:600;font-size:11px;letter-spacing:.06em;color:#a8a29e}
+
+/* 인물 상세 기록에만: 붉은 공문 도장 */
+.vx-doctop{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:28px;font-family:var(--mono);font-size:10px;letter-spacing:.26em;color:#a8a29e}
+.vx-doctop .l{display:grid;gap:6px}
+.vx-doctop .l a{color:#e8ce96}
+.vx-stamp{--ink:#d9473f;flex:none;display:grid;justify-items:center;gap:3px;padding:7px 14px 8px;color:var(--ink);
+  border:2px solid var(--ink);box-shadow:inset 0 0 0 2px #0000,inset 0 0 0 3px var(--ink);border-radius:3px;
+  transform:rotate(-5deg);opacity:.86;mix-blend-mode:screen;text-align:center;line-height:1.25;white-space:nowrap}
+.vx-stamp span{font-family:var(--mono);font-size:9px;letter-spacing:.12em}
+.vx-stamp b{font-family:var(--sans);font-weight:900;font-size:17px;letter-spacing:.34em;margin-right:-.34em}
+.vx-stamp.sm{justify-self:start;margin:2px 0 12px 4px;padding:5px 11px 6px}
+.vx-stamp.sm b{font-size:14px}
+@media (prefers-reduced-motion:no-preference){
+  .vx-stamp{animation:vxStamp .55s cubic-bezier(.2,.9,.3,1.2) .35s both}
+  @keyframes vxStamp{0%{opacity:0;transform:rotate(-12deg) scale(1.9)}60%{opacity:.95;transform:rotate(-4deg) scale(.94)}100%{opacity:.86;transform:rotate(-5deg) scale(1)}}
+}
+@media (max-width:520px){
+  .vx-doctop{align-items:flex-start;padding-top:22px}
+  .vx-stamp{padding:6px 10px 7px}
+  .vx-stamp span{font-size:8px;letter-spacing:.06em}
+  .vx-stamp b{font-size:14px;letter-spacing:.26em;margin-right:-.26em}
+}
+.vx-doctop .l span i{font-style:normal;display:inline-block;white-space:nowrap}
