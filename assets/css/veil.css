@@ -786,3 +786,7 @@ button.vx-btn{appearance:none;border:0;cursor:pointer;font:inherit}
 .vx-kv .vx-redact{--rw:96px;margin-right:6px}
 .vx-redact .bar{position:absolute;left:0;top:50%;margin:0!important;translate:0 -50%}
 .vx-redact.is-open{min-width:0}
+
+/* 발레르 01장 인물 칸 얼굴컷 (11/25) */
+.vx-face{display:block;flex-shrink:0;width:6rem;height:8rem;object-fit:cover;object-position:center top;background:#0a101b;
+  box-shadow:0 0 0 1px #cca35588,0 0 0 4px #112,0 0 0 5px #cca35544,0 10px 22px #0009}
