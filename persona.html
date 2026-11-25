@@ -6,66 +6,69 @@
 <title>페소 만들기 — VEILWARD</title>
 <meta name="description" content="항목을 채우면 페소 설정이 완성된다.">
 <meta name="theme-color" content="#0A101B">
+<link rel="canonical" href="https://sss1huter.github.io/UNDERVEIL/persona.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="VEILWARD">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:url" content="https://sss1huter.github.io/UNDERVEIL/persona.html">
+<meta property="og:image" content="https://sss1huter.github.io/UNDERVEIL/images/og_veilward.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <meta property="og:title" content="페소 만들기 — VEILWARD">
 <meta property="og:description" content="항목을 채우면 페소 설정이 완성된다.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230A101B'/%3E%3Crect x='9' y='9' width='14' height='14' transform='rotate(45 16 16)' fill='none' stroke='%23ccaa55' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='2.5' fill='%23ccaa55'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3E%3Crect%20width='32'%20height='32'%20fill='%230A101B'/%3E%3Crect%20x='9'%20y='9'%20width='14'%20height='14'%20transform='rotate(45%2016%2016)'%20fill='none'%20stroke='%23ccaa55'%20stroke-width='2'/%3E%3Ccircle%20cx='16'%20cy='16'%20r='2.5'%20fill='%23ccaa55'/%3E%3C/svg%3E">
 <script>document.documentElement.classList.add('js')</script>
-<link rel="stylesheet" href="assets/css/tailwind.css">
-<link rel="stylesheet" href="assets/css/animate.min.css">
-<link rel="stylesheet" href="assets/css/veil.css">
+<link rel="preload" href="assets/fonts/pretendard/pretendard-site.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css">
 <script src="assets/js/veil.js" defer></script>
 </head>
 <body data-page="persona" data-cover="side">
 <aside class="vx-side" id="vx-side" aria-label="사이트 메뉴"><a class="vx-brand" href="index.html"><span class="vx-brand-mark"><i></i><b>VEILWARD</b></span><span class="vx-issuer"><b>협약원 봉인 서고</b><span>일반 열람용 사본</span></span><small>THE UNDERVEIL ARCHIVE</small></a><nav class="vx-menu"><div class="vx-group"><span>ARCHIVE</span><a class="vx-link" href="index.html">언더베일<em>UNDERVEIL</em></a></div><div class="vx-group"><span>FACTIONS</span><a class="vx-link" href="factions.html#veilward">베일워드<em>VEILWARD</em></a><a class="vx-link sub" href="factions.html#house">하우스<em>HOUSES</em></a><a class="vx-link" href="factions.html#unbound">언바운드<em>UNBOUND</em></a><a class="vx-link" href="factions.html#unsworn">언스원<em>UNSWORN</em></a></div><div class="vx-group"><span>PERSONNEL</span><a class="vx-link" href="personnel.html">인물 명부<em>FILES</em></a><a class="vx-link sub" href="valer.html">발레르 모르베인<em>01</em></a></div><div class="vx-group"><span>PLAY</span><a class="vx-link" href="persona.html" aria-current="page">페소 만들기<em>PERSONA</em></a></div></nav><div class="vx-side-foot"><span class="vx-moons"><i></i><i></i><i></i><i></i><i></i></span><span>SAME PLACE<br>DIFFERENT LAYER</span></div></aside><div class="vx-scrim"></div>
 <div class="vx-main">
 <header class="vx-bar"><a class="vx-brand-mark" href="index.html"><i></i><span class="vx-bm-t"><b>VEILWARD</b><small>협약원 봉인 서고 / 일반 열람용 사본</small></span></a><button type="button" class="vx-menu-btn" aria-controls="vx-side" aria-expanded="false"><i></i>MENU</button></header>
-
 <div class="vx-frame"><i class="vx-tex"></i><i class="vx-deco l"></i>
 <main class="vx-content" id="main">
-  <!-- 페이지 머리 -->
-  <header class="vx-ch vx-pad" style="padding-top:72px">
-    <div class="vx-ch-row"><b class="vx-ch-no"><i>✦</i></b><span>PLAY · PERSONA FORM</span></div>
-    <h1 class="vx-ch-t"><b style="font-size:clamp(56px,9vw,112px)">페소 만들기</b><em style="font-size:clamp(44px,7vw,92px)">Persona</em></h1>
-    <p class="vx-ch-lead">항목을 채우면 오른쪽에 페소 설정이 완성된다. 복사해서 채팅방의 페르소나 칸에 붙여 넣으면 된다. 비워 둔 항목은 빠진다.</p>
-  </header>
-
-  <section class="vx-pad" style="padding-bottom:88px">
-    <div class="vx-maker">
-      <form class="vx-form" id="persona-form" autocomplete="off" onsubmit="return false" data-reveal>
-        <div class="vx-form-top"><b>PERSONA FORM</b><span>VEILWARD</span></div>
-        <div class="vx-two">
-          <label class="vx-fld"><span>이름</span><input name="name" placeholder="당신의 이름"></label>
-          <label class="vx-fld"><span>진명 <small>(인외일 경우)</small></span><input name="truename" placeholder="인외라면 진명"></label>
-        </div>
-        <label class="vx-fld"><span>종족</span><input name="race" placeholder="인간, 천사, 뱀파이어, 하우스 혈통 …"></label>
-        <label class="vx-fld"><span>외향</span><textarea name="look" placeholder="키, 머리와 눈 색, 인상 …"></textarea></label>
-        <div class="vx-two">
-          <label class="vx-fld"><span>의상</span><input name="outfit" placeholder="자주 입는 옷"></label>
-          <label class="vx-fld"><span>향기</span><input name="scent" placeholder="가까이 가면 나는 향"></label>
-        </div>
-        <label class="vx-fld"><span>호불호</span><textarea name="likes" placeholder="좋아하는 것 / 싫어하는 것"></textarea></label>
-        <hr class="vx-sep">
-        <div class="vx-fld"><span style="color:#854d0e">※ 인외일 경우 · 소속</span>
-          <div class="vx-radios" role="radiogroup" aria-label="소속">
-            <label><input type="radio" name="affil" value="Veilward"><span>Veilward</span></label>
-            <label><input type="radio" name="affil" value="The Unbound"><span>The Unbound</span></label>
-            <label><input type="radio" name="affil" value="Unsworn"><span>Unsworn</span></label>
-            <label><input type="radio" name="affil" value="그 외"><span>그 외</span></label>
-          </div>
-          <input name="affilEtc" placeholder="그 외라면 직접 적기" style="margin-top:4px">
-          <small style="font-size:12px;color:#78716c">(그 외여도 괜찮습니다..)</small>
-        </div>
-      </form>
-
-      <aside class="vx-out" aria-label="완성된 페소" data-reveal data-d="1">
-        <div class="vx-out-top"><span>PERSONA · OUTPUT</span><b>완성된 페소</b><small>적는 대로 바로 바뀐다.</small></div>
-        <textarea id="persona-out" readonly placeholder="왼쪽 항목을 채우면 여기에 완성본이 나타난다."></textarea>
-        <div class="vx-out-row"><span id="persona-count">0자</span><span style="font-family:var(--mono);font-size:9.5px;letter-spacing:.24em">VEILWARD</span></div>
-        <div class="vx-out-btns"><button type="button" class="vx-btn" id="persona-copy">복사하기</button><button type="button" class="vx-btn ghost" id="persona-reset">비우기</button></div>
-      </aside>
-    </div>
-  </section>
-
+<header class="vx-ch vx-pad" style="padding-top:72px">
+<div class="vx-ch-row"><b class="vx-ch-no"><i>✦</i></b><span>PLAY · PERSONA FORM</span></div>
+<h1 class="vx-ch-t"><b style="font-size:clamp(56px,9vw,112px)">페소 만들기</b><em style="font-size:clamp(44px,7vw,92px)">Persona</em></h1>
+<p class="vx-ch-lead">항목을 채우면 오른쪽에 페소 설정이 완성된다. 복사해서 채팅방의 페르소나 칸에 붙여 넣으면 된다. 비워 둔 항목은 빠진다.</p>
+</header>
+<section class="vx-pad" style="padding-bottom:88px">
+<div class="vx-maker">
+<form class="vx-form" id="persona-form" autocomplete="off" onsubmit="return false" data-reveal>
+<div class="vx-form-top"><b>PERSONA FORM</b><span>VEILWARD</span></div>
+<div class="vx-two">
+<label class="vx-fld"><span>이름</span><input name="name" placeholder="당신의 이름"></label>
+<label class="vx-fld"><span>진명 <small>(인외일 경우)</small></span><input name="truename" placeholder="인외라면 진명"></label>
+</div>
+<label class="vx-fld"><span>종족</span><input name="race" placeholder="인간, 천사, 뱀파이어, 하우스 혈통 …"></label>
+<label class="vx-fld"><span>외향</span><textarea name="look" placeholder="키, 머리와 눈 색, 인상 …"></textarea></label>
+<div class="vx-two">
+<label class="vx-fld"><span>의상</span><input name="outfit" placeholder="자주 입는 옷"></label>
+<label class="vx-fld"><span>향기</span><input name="scent" placeholder="가까이 가면 나는 향"></label>
+</div>
+<label class="vx-fld"><span>호불호</span><textarea name="likes" placeholder="좋아하는 것 / 싫어하는 것"></textarea></label>
+<hr class="vx-sep">
+<div class="vx-fld"><span style="color:#854d0e">※ 인외일 경우 · 소속</span>
+<div class="vx-radios" role="radiogroup" aria-label="소속">
+<label><input type="radio" name="affil" value="Veilward"><span>Veilward</span></label>
+<label><input type="radio" name="affil" value="The Unbound"><span>The Unbound</span></label>
+<label><input type="radio" name="affil" value="Unsworn"><span>Unsworn</span></label>
+<label><input type="radio" name="affil" value="그 외"><span>그 외</span></label>
+</div>
+<input name="affilEtc" placeholder="그 외라면 직접 적기" style="margin-top:4px">
+<small style="font-size:12px;color:#78716c">(그 외여도 괜찮습니다..)</small>
+</div>
+</form>
+<aside class="vx-out" aria-label="완성된 페소" data-reveal data-d="1">
+<div class="vx-out-top"><span>PERSONA · OUTPUT</span><b>완성된 페소</b><small>적는 대로 바로 바뀐다.</small></div>
+<textarea id="persona-out" readonly placeholder="왼쪽 항목을 채우면 여기에 완성본이 나타난다."></textarea>
+<div class="vx-out-row"><span id="persona-count">0자</span><span style="font-family:var(--mono);font-size:9.5px;letter-spacing:.24em">VEILWARD</span></div>
+<div class="vx-out-btns"><button type="button" class="vx-btn" id="persona-copy">복사하기</button><button type="button" class="vx-btn ghost" id="persona-reset">비우기</button></div>
+</aside>
+</div>
+</section>
 </main>
 <i class="vx-deco r"></i><i class="vx-border"></i></div>
 <footer class="vx-foot"><div class="iss"><b>VEILWARD</b><span>· 협약원 봉인 서고 / 일반 열람용 사본</span></div><span>THE UNDERVEIL ARCHIVE</span></footer>

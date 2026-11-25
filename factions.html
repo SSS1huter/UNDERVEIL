@@ -6,261 +6,243 @@
 <title>세력 — VEILWARD</title>
 <meta name="description" content="베일워드, 언바운드, 언스원, 그리고 하우스.">
 <meta name="theme-color" content="#0A101B">
+<link rel="canonical" href="https://sss1huter.github.io/UNDERVEIL/factions.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="VEILWARD">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:url" content="https://sss1huter.github.io/UNDERVEIL/factions.html">
+<meta property="og:image" content="https://sss1huter.github.io/UNDERVEIL/images/og_veilward.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <meta property="og:title" content="세력 — VEILWARD">
 <meta property="og:description" content="베일워드, 언바운드, 언스원, 그리고 하우스.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230A101B'/%3E%3Crect x='9' y='9' width='14' height='14' transform='rotate(45 16 16)' fill='none' stroke='%23ccaa55' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='2.5' fill='%23ccaa55'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3E%3Crect%20width='32'%20height='32'%20fill='%230A101B'/%3E%3Crect%20x='9'%20y='9'%20width='14'%20height='14'%20transform='rotate(45%2016%2016)'%20fill='none'%20stroke='%23ccaa55'%20stroke-width='2'/%3E%3Ccircle%20cx='16'%20cy='16'%20r='2.5'%20fill='%23ccaa55'/%3E%3C/svg%3E">
 <script>document.documentElement.classList.add('js')</script>
-<link rel="stylesheet" href="assets/css/tailwind.css">
-<link rel="stylesheet" href="assets/css/animate.min.css">
-<link rel="stylesheet" href="assets/css/veil.css">
+<link rel="preload" href="assets/fonts/pretendard/pretendard-site.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css">
 <script src="assets/js/veil.js" defer></script>
 </head>
 <body data-page="factions" data-cover="side">
 <aside class="vx-side" id="vx-side" aria-label="사이트 메뉴"><a class="vx-brand" href="index.html"><span class="vx-brand-mark"><i></i><b>VEILWARD</b></span><span class="vx-issuer"><b>협약원 봉인 서고</b><span>일반 열람용 사본</span></span><small>THE UNDERVEIL ARCHIVE</small></a><nav class="vx-menu"><div class="vx-group"><span>ARCHIVE</span><a class="vx-link" href="index.html">언더베일<em>UNDERVEIL</em></a></div><div class="vx-group"><span>FACTIONS</span><a class="vx-link" href="#veilward" data-spy="veilward">베일워드<em>VEILWARD</em></a><a class="vx-link sub" href="#house" data-spy="house">하우스<em>HOUSES</em></a><a class="vx-link" href="#unbound" data-spy="unbound">언바운드<em>UNBOUND</em></a><a class="vx-link" href="#unsworn" data-spy="unsworn">언스원<em>UNSWORN</em></a></div><div class="vx-group"><span>PERSONNEL</span><a class="vx-link" href="personnel.html">인물 명부<em>FILES</em></a><a class="vx-link sub" href="valer.html">발레르 모르베인<em>01</em></a></div><div class="vx-group"><span>PLAY</span><a class="vx-link" href="persona.html">페소 만들기<em>PERSONA</em></a></div></nav><div class="vx-side-foot"><span class="vx-moons"><i></i><i></i><i></i><i></i><i></i></span><span>SAME PLACE<br>DIFFERENT LAYER</span></div></aside><div class="vx-scrim"></div>
 <div class="vx-main">
 <header class="vx-bar"><a class="vx-brand-mark" href="index.html"><i></i><span class="vx-bm-t"><b>VEILWARD</b><small>협약원 봉인 서고 / 일반 열람용 사본</small></span></a><button type="button" class="vx-menu-btn" aria-controls="vx-side" aria-expanded="false"><i></i>MENU</button></header>
-
 <div class="vx-frame"><i class="vx-tex"></i><i class="vx-deco l"></i>
 <main class="vx-content" id="main">
-  <!-- 페이지 머리 -->
-  <header class="vx-ch vx-pad" style="padding-top:72px">
-    <div class="vx-ch-row"><b class="vx-ch-no"><i>✦</i></b><span>FACTIONS OF THE UNDERVEIL</span></div>
-    <h1 class="vx-ch-t"><b style="font-size:clamp(56px,9vw,112px)">세력</b><em style="font-size:clamp(44px,7vw,92px)">Factions</em></h1>
-    <p class="vx-ch-lead">언더베일에는 베일을 지키고 싶어하는 세력과 베일을 찢거나 걷어버리고 싶어하는 세력이 있다.</p>
-    <nav class="vx-jump" aria-label="세력 바로가기">
-      <a href="#veilward"><i style="background-image:url(images/veilward_seal.png)"></i>베일워드</a>
-      <a href="#unbound"><i style="background-image:url(images/unbound_seal.png)"></i>언바운드</a>
-      <a href="#unsworn"><i style="background-image:url(images/unsworn_seal.png)"></i>언스원</a>
-    </nav>
-  </header>
-
-  <!-- 세력 관계도 -->
-  <section class="vx-pad" aria-labelledby="rel-title" style="padding-bottom:40px">
-    <div class="vx-sub" style="margin-top:8px"><i></i><b id="rel-title">세력 관계도</b><span>RELATIONS</span></div>
-    <div class="vx-rel" data-reveal role="img" aria-label="베일워드와 언바운드는 배척·대립. 베일워드와 언스원은 공존·협조·경계. 언스원과 언바운드는 협조·공존·경멸.">
-      <svg class="vx-rel-lines" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-        <defs><linearGradient id="relWar" gradientUnits="userSpaceOnUse" x1="20" y1="0" x2="80" y2="0"><stop offset="0" stop-color="#e8ce96"/><stop offset=".5" stop-color="#f0a08a"/><stop offset="1" stop-color="#b79be0"/></linearGradient></defs>
-        <line class="war glow" x1="20" y1="30" x2="80" y2="30"/>
-        <line class="war" x1="20" y1="30" x2="80" y2="30"/>
-        <line class="vu" x1="20" y1="30" x2="50" y2="76"/>
-        <line class="uu" x1="80" y1="30" x2="50" y2="76"/>
-      </svg>
-      <a class="vx-rel-node" href="#veilward" style="left:20%;top:30%;--c:#B9B2A5"><span class="seal"><i style="background-image:url(images/veilward_seal.png)"></i></span><b>베일워드</b><em>VEILWARD</em><small>통치 · 봉쇄</small></a>
-      <a class="vx-rel-node" href="#unbound" style="left:80%;top:30%;--c:#8E6BBF"><span class="seal"><i style="background-image:url(images/unbound_seal.png)"></i></span><b>언바운드</b><em>THE UNBOUND</em><small>해방 · 확장</small></a>
-      <a class="vx-rel-node" href="#unsworn" style="left:50%;top:76%;--c:#B07A3E"><span class="seal"><i style="background-image:url(images/unsworn_seal.png)"></i></span><b>언스원</b><em>UNSWORN</em><small class="neu">중립</small></a>
-      <div class="vx-rel-tag war" style="left:50%;top:30%"><b>배척 · 대립</b></div>
-      <div class="vx-rel-tag vu l"><b>공존 · 협조 · 경계</b></div>
-      <div class="vx-rel-tag uu r"><b>협조 · 공존 · 경멸</b></div>
-    </div>
-    <div class="vx-rel-legend" data-reveal>
-      <div><i class="war"></i><b>베일워드 ↔ 언바운드</b><span>배척 · 대립</span></div>
-      <div><i class="vu"></i><b>베일워드 ↔ 언스원</b><span>공존 · 협조 · 경계</span></div>
-      <div><i class="uu"></i><b>언스원 ↔ 언바운드</b><span>협조 · 공존 · 경멸</span></div>
-    </div>
-  </section>
-
-  <!-- 01 VEILWARD -->
-  <section id="veilward" class="vx-pad vx-plate" style="padding-bottom:24px">
-    <div class="vx-wm veilward" aria-hidden="true"><svg viewBox="0 0 400 290" aria-hidden="true"><image href="images/veilward_crest.png" x="128" y="16" width="144" height="147"/><text x="200" y="228" text-anchor="middle" font-family="Noto Serif,serif" font-size="40" font-weight="700" letter-spacing="10" fill="currentColor">VEILWARD</text><path d="M56 257H113 M287 257H344" stroke="currentColor" stroke-width="1.4"/><text x="200" y="262" text-anchor="middle" font-family="Noto Serif,serif" font-size="13" letter-spacing="6" fill="currentColor">GOVERNANCE</text></svg></div>
-    <header class="vx-ch"><div class="vx-ch-row"><b class="vx-ch-no"><i>01</i></b><span>VEILWARD · 통치 기구</span></div>
-      <h2 class="vx-ch-t"><b>베일워드</b><em>Veilward</em></h2>
-    </header>
-    <div class="vx-fhead" data-reveal>
-      <div class="vx-seal" style="--c:#B9B2A5"><div><i style="background-image:url(images/veilward_seal.png)"></i><b class="animate__animated animate__infinite animate__slideOutRight animate__slower"></b></div></div>
-      <div style="display:grid;gap:12px">
-        <div style="display:flex;flex-wrap:wrap;gap:6px"><span class="vx-tag cream">3대 수장 · 의회</span><span class="vx-tag">은폐</span><span class="vx-tag">봉쇄</span><span class="vx-tag">경계 보존</span></div>
-        <p style="margin:0;font-size:17px;line-height:1.8;color:#fef3c7;font-weight:700">‘밤의 협약’으로 세워져 언더베일을 다스리는 통치 기구. 3대 수장이 이끄는 세 기관과 의회로 이루어져 있다.</p>
-        <p style="margin:0;color:#d6d3d1">현실이 언더베일을 알아채지 못하게 덮고, 인외가 현실로 넘어오는 것을 제한한다.</p>
-      </div>
-    </div>
-    <div class="vx-note" style="margin:22px 0 0;max-width:560px" data-reveal><span>NOTE · THE NIGHT ACCORD / 밤의 협약</span><p>밤의 협약은 베일 바깥의 현실을 지키고 싶은 자들이 모여서 극적으로 이루어낸 결과물이다. 협약은 지금도 유지되며 베일워드 창설이념이 되었다.</p></div>
-
-    <div class="vx-sub"><i></i><b>조직 구조도</b><span>STRUCTURE</span></div>
-    <div class="vx-org2" data-reveal>
-      <div class="o-top"><b>베일워드<small>Veilward</small></b><span>밤의 협약으로 창설 · 세 기관과 의회</span></div>
-      <div class="o-cols">
-        <div class="o-col star"><div class="o-head"><b>성실청<small>Star Chamber</small></b><span>사법 · 수장 R</span></div><div class="o-kids"><div class="o-kid"><b>시리우스<small>Sirius</small></b><span>수사·체포대</span></div><div class="o-kid"><b>천저<small>The Nadir</small></b><span>감옥</span></div><div class="o-kid ext"><b>레드 태그<small>Red Tags</small></b><span>헌터 길드 · 외부 계약 파트너</span></div></div></div>
-        <div class="o-col accord"><div class="o-head"><b>협약원<small>Accord Chamber</small></b><span>입법 · 수장 W.W</span></div><div class="o-kids"><div class="o-kid"><b>봉인 서고<small>The Sealed Library</small></b><span>협약 원본 보관 · 법 성문화</span></div><div class="o-kid"><b>인장국</b><span>인외 계약 · 계약 소환 등록</span></div></div></div>
-        <div class="o-col watch"><div class="o-head"><b>야경청<small>Night Watch</small></b><span>행정 · 수장 A.H</span></div><div class="o-kids"><div class="o-kid"><b>철야 기사단<small>Order of the Vigil</small></b><span>게이트·경계 수호</span></div><div class="o-kid"><b>점등인<small>Lamplighters</small></b><span>현실 쪽 은폐·뒷수습</span></div><div class="o-kid ext"><b>관문 관측소<small>Threshold Observatory</small></b><span>모든 게이트를 관리·감시하는 기구 · 언스원 ‘경계의 문지기’ 협조</span></div></div></div>
-      </div>
-      <div class="o-bottom">
-        <div class="o-node"><b>의회<small>Council</small></b><span>하우스 · 헌터 · 심령 단체 · 협력 인외의 회의체</span></div>
-        <div class="o-node"><b>눈 뜬 자들<small>The Open-Eyed</small></b><span>각성자 협회</span></div>
-      </div>
-      <div class="o-legend"><span><i></i>베일워드 기관</span><span><i class="ext"></i>외부 협력 · 계약</span></div>
-    </div>
-    <div class="vx-notice" style="margin-top:12px" data-reveal><span>INTERNAL · 내부 사정</span><p>봉쇄의 방식과 범위, 예외를 두고 내부에서도 의견이 갈린다. 기관과 의회 사이의 권력 배분, 밤의 협약의 세부 내용은 알려지지 않았다.</p></div>
-
-    <div id="house" class="vx-houseblock">
-      <div class="vx-sub"><i></i><b>하우스</b><span>HOUSES · 베일워드</span></div>
-      <p class="vx-houselead">언더베일에서 가장 오래된 가문들. 초자연적인 혈통을 이어왔으며 각 가문으로 이능이 내려온다. 《아르스 고에티아》 악마들의 이름을 가문명으로 사용하는 전통이 있다.</p>
+<header class="vx-ch vx-pad" style="padding-top:72px">
+<div class="vx-ch-row"><b class="vx-ch-no"><i>✦</i></b><span>FACTIONS OF THE UNDERVEIL</span></div>
+<h1 class="vx-ch-t"><b style="font-size:clamp(56px,9vw,112px)">세력</b><em style="font-size:clamp(44px,7vw,92px)">Factions</em></h1>
+<p class="vx-ch-lead">언더베일에는 베일을 지키고 싶어하는 세력과 베일을 찢거나 걷어버리고 싶어하는 세력이 있다.</p>
+<nav class="vx-jump" aria-label="세력 바로가기">
+<a href="#veilward"><i style="background-image:url(images/veilward_seal.webp)"></i>베일워드</a>
+<a href="#unbound"><i style="background-image:url(images/unbound_seal.webp)"></i>언바운드</a>
+<a href="#unsworn"><i style="background-image:url(images/unsworn_seal.webp)"></i>언스원</a>
+</nav>
+</header>
+<section class="vx-pad" aria-labelledby="rel-title" style="padding-bottom:40px">
+<div class="vx-sub" style="margin-top:8px"><i></i><b id="rel-title">세력 관계도</b><span>RELATIONS</span></div>
+<div class="vx-rel" data-reveal role="group" aria-label="베일워드와 언바운드는 배척·대립. 베일워드와 언스원은 공존·협조·경계. 언스원과 언바운드는 협조·공존·경멸.">
+<svg class="vx-rel-lines" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+<defs><linearGradient id="relWar" gradientUnits="userSpaceOnUse" x1="20" y1="0" x2="80" y2="0"><stop offset="0" stop-color="#e8ce96"/><stop offset=".5" stop-color="#f0a08a"/><stop offset="1" stop-color="#b79be0"/></linearGradient></defs>
+<line class="war glow" x1="20" y1="30" x2="80" y2="30"/>
+<line class="war" x1="20" y1="30" x2="80" y2="30"/>
+<line class="vu" x1="20" y1="30" x2="50" y2="76"/>
+<line class="uu" x1="80" y1="30" x2="50" y2="76"/>
+</svg>
+<a class="vx-rel-node" href="#veilward" style="left:20%;top:30%;--c:#B9B2A5"><span class="seal"><i style="background-image:url(images/veilward_seal.webp)"></i></span><b>베일워드</b><em>VEILWARD</em><small>통치 · 봉쇄</small></a>
+<a class="vx-rel-node" href="#unbound" style="left:80%;top:30%;--c:#8E6BBF"><span class="seal"><i style="background-image:url(images/unbound_seal.webp)"></i></span><b>언바운드</b><em>THE UNBOUND</em><small>해방 · 확장</small></a>
+<a class="vx-rel-node" href="#unsworn" style="left:50%;top:76%;--c:#B07A3E"><span class="seal"><i style="background-image:url(images/unsworn_seal.webp)"></i></span><b>언스원</b><em>UNSWORN</em><small class="neu">중립</small></a>
+<div class="vx-rel-tag war" style="left:50%;top:30%"><b>배척 · 대립</b></div>
+<div class="vx-rel-tag vu l"><b>공존 · 협조 · 경계</b></div>
+<div class="vx-rel-tag uu r"><b>협조 · 공존 · 경멸</b></div>
+</div>
+<div class="vx-rel-legend" data-reveal>
+<div><i class="war"></i><b>베일워드 ↔ 언바운드</b><span>배척 · 대립</span></div>
+<div><i class="vu"></i><b>베일워드 ↔ 언스원</b><span>공존 · 협조 · 경계</span></div>
+<div><i class="uu"></i><b>언스원 ↔ 언바운드</b><span>협조 · 공존 · 경멸</span></div>
+</div>
+</section>
+<section id="veilward" class="vx-pad vx-plate" style="padding-bottom:24px">
+<div class="vx-wm veilward" aria-hidden="true"><svg viewBox="0 0 400 290" aria-hidden="true"><image href="images/veilward_crest.webp" x="128" y="16" width="144" height="147"/><text x="200" y="228" text-anchor="middle" font-family="Noto Serif,serif" font-size="40" font-weight="700" letter-spacing="10" fill="currentColor">VEILWARD</text><path d="M56 257H113 M287 257H344" stroke="currentColor" stroke-width="1.4"/><text x="200" y="262" text-anchor="middle" font-family="Noto Serif,serif" font-size="13" letter-spacing="6" fill="currentColor">GOVERNANCE</text></svg></div>
+<header class="vx-ch"><div class="vx-ch-row"><b class="vx-ch-no"><i>01</i></b><span>VEILWARD · 통치 기구</span></div>
+<h2 class="vx-ch-t"><b>베일워드</b><em>Veilward</em></h2>
+</header>
+<div class="vx-fhead" data-reveal>
+<div class="vx-seal" style="--c:#B9B2A5"><div><i style="background-image:url(images/veilward_seal.webp)"></i><b class="animate__animated animate__infinite animate__slideOutRight animate__slower"></b></div></div>
+<div style="display:grid;gap:12px">
+<div style="display:flex;flex-wrap:wrap;gap:6px"><span class="vx-tag cream">3대 수장 · 의회</span><span class="vx-tag">은폐</span><span class="vx-tag">봉쇄</span><span class="vx-tag">경계 보존</span></div>
+<p style="margin:0;font-size:17px;line-height:1.8;color:#fef3c7;font-weight:700">‘밤의 협약’으로 세워져 언더베일을 다스리는 통치 기구. 3대 수장이 이끄는 세 기관과 의회로 이루어져 있다.</p>
+<p style="margin:0;color:#d6d3d1">현실이 언더베일을 알아채지 못하게 덮고, 인외가 현실로 넘어오는 것을 제한한다.</p>
+</div>
+</div>
+<div class="vx-note" style="margin:22px 0 0;max-width:560px" data-reveal><span>NOTE · THE NIGHT ACCORD / 밤의 협약</span><p>밤의 협약은 베일 바깥의 현실을 지키고 싶은 자들이 모여서 극적으로 이루어낸 결과물이다. 협약은 지금도 유지되며 베일워드 창설이념이 되었다.</p></div>
+<div class="vx-sub"><i></i><b>조직 구조도</b><span>STRUCTURE</span></div>
+<div class="vx-org2" data-reveal>
+<div class="o-top"><b>베일워드<small>Veilward</small></b><span>밤의 협약으로 창설 · 세 기관과 의회</span></div>
+<div class="o-cols">
+<div class="o-col star"><div class="o-head"><b>성실청<small>Star Chamber</small></b><span>사법 · 수장 R</span></div><div class="o-kids"><div class="o-kid"><b>시리우스<small>Sirius</small></b><span>수사·체포대</span></div><div class="o-kid"><b>천저<small>The Nadir</small></b><span>감옥</span></div><div class="o-kid ext"><b>레드 태그<small>Red Tags</small></b><span>헌터 길드 · 외부 계약 파트너</span></div></div></div>
+<div class="o-col accord"><div class="o-head"><b>협약원<small>Accord Chamber</small></b><span>입법 · 수장 W.W</span></div><div class="o-kids"><div class="o-kid"><b>봉인 서고<small>The Sealed Library</small></b><span>협약 원본 보관 · 법 성문화</span></div><div class="o-kid"><b>인장국</b><span>인외 계약 · 계약 소환 등록</span></div></div></div>
+<div class="o-col watch"><div class="o-head"><b>야경청<small>Night Watch</small></b><span>행정 · 수장 A.H</span></div><div class="o-kids"><div class="o-kid"><b>철야 기사단<small>Order of the Vigil</small></b><span>게이트·경계 수호</span></div><div class="o-kid"><b>점등인<small>Lamplighters</small></b><span>현실 쪽 은폐·뒷수습</span></div><div class="o-kid ext"><b>관문 관측소<small>Threshold Observatory</small></b><span>모든 게이트를 관리·감시하는 기구 · 언스원 ‘경계의 문지기’ 협조</span></div></div></div>
+</div>
+<div class="o-bottom">
+<div class="o-node"><b>의회<small>Council</small></b><span>하우스 · 헌터 · 심령 단체 · 협력 인외의 회의체</span></div>
+<div class="o-node"><b>눈 뜬 자들<small>The Open-Eyed</small></b><span>각성자 협회</span></div>
+</div>
+<div class="o-legend"><span><i></i>베일워드 기관</span><span><i class="ext"></i>외부 협력 · 계약</span></div>
+</div>
+<div class="vx-notice" style="margin-top:12px" data-reveal><span>INTERNAL · 내부 사정</span><p>봉쇄의 방식과 범위, 예외를 두고 내부에서도 의견이 갈린다. 기관과 의회 사이의 권력 배분, 밤의 협약의 세부 내용은 알려지지 않았다.</p></div>
+<div id="house" class="vx-houseblock">
+<div class="vx-sub"><i></i><b>하우스</b><span>HOUSES · 베일워드</span></div>
+<p class="vx-houselead">언더베일에서 가장 오래된 가문들. 초자연적인 혈통을 이어왔으며 각 가문으로 이능이 내려온다. 《아르스 고에티아》 악마들의 이름을 가문명으로 사용하는 전통이 있다.</p>
 <div class="vx-files houses">
-<button type="button" class="vx-file open" id="house-astaroth" data-file="house-astaroth" data-reveal aria-label="하우스 아스타로트 기록 열기"><span class="ph"><span class="crest" style="background-image:url(images/astaroth_emblem.png);inset:16% 10% 26%"></span><span class="tag vx-tag cream">HOUSE 01</span></span><span class="cap"><span class="lab">ARS GOETIA · 29</span><b>ASTAROTH</b><small>아스타로트 · 가주 · 발레르 모르베인</small></span></button>
+<button type="button" class="vx-file open" id="house-astaroth" data-file="house-astaroth" data-reveal aria-label="하우스 아스타로트 기록 열기"><span class="ph"><span class="crest" style="background-image:url(images/astaroth_emblem.webp);inset:16% 10% 26%"></span><span class="tag vx-tag cream">HOUSE 01</span></span><span class="cap"><span class="lab">ARS GOETIA · 29</span><b>ASTAROTH</b><small>아스타로트 · 가주 · 발레르 모르베인</small></span></button>
 <button type="button" class="vx-file open" id="house-bael" data-file="house-bael" data-reveal data-d="1" aria-label="하우스 바엘 기록 열기"><span class="ph"><span class="sigil"><svg viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="54" fill="none" stroke="#ca5" stroke-width="1"/><circle cx="60" cy="60" r="47" fill="none" stroke="#ca5" stroke-width=".6" stroke-dasharray="2 3"/><circle cx="60" cy="60" r="34" fill="none" stroke="#cca55588" stroke-width=".6"/><path d="M60 6v10M60 104v10M6 60h10M104 60h10" stroke="#ca5" stroke-width="1"/><text x="60" y="73" text-anchor="middle" font-family="Noto Serif,serif" font-size="38" font-weight="700" fill="#e8ce96">B</text></svg></span><span class="tag vx-tag cream">HOUSE 02</span></span><span class="cap"><span class="lab">ARS GOETIA · 01</span><b>BAEL</b><small>바엘 · 기록 봉인</small></span></button>
 <button type="button" class="vx-file open" id="house-dantalion" data-file="house-dantalion" data-reveal data-d="2" aria-label="하우스 단탈리온 기록 열기"><span class="ph"><span class="sigil"><svg viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="54" fill="none" stroke="#ca5" stroke-width="1"/><circle cx="60" cy="60" r="47" fill="none" stroke="#ca5" stroke-width=".6" stroke-dasharray="2 3"/><circle cx="60" cy="60" r="34" fill="none" stroke="#cca55588" stroke-width=".6"/><path d="M60 6v10M60 104v10M6 60h10M104 60h10" stroke="#ca5" stroke-width="1"/><text x="60" y="73" text-anchor="middle" font-family="Noto Serif,serif" font-size="38" font-weight="700" fill="#e8ce96">D</text></svg></span><span class="tag vx-tag cream">HOUSE 03</span></span><span class="cap"><span class="lab">ARS GOETIA · 71</span><b>DANTALION</b><small>단탈리온 · 기록 봉인</small></span></button>
 <button type="button" class="vx-file open" id="house-murmur" data-file="house-murmur" data-reveal data-d="3" aria-label="하우스 무르무르 기록 열기"><span class="ph"><span class="sigil"><svg viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="54" fill="none" stroke="#ca5" stroke-width="1"/><circle cx="60" cy="60" r="47" fill="none" stroke="#ca5" stroke-width=".6" stroke-dasharray="2 3"/><circle cx="60" cy="60" r="34" fill="none" stroke="#cca55588" stroke-width=".6"/><path d="M60 6v10M60 104v10M6 60h10M104 60h10" stroke="#ca5" stroke-width="1"/><text x="60" y="73" text-anchor="middle" font-family="Noto Serif,serif" font-size="38" font-weight="700" fill="#e8ce96">M</text></svg></span><span class="tag vx-tag cream">HOUSE 04</span></span><span class="cap"><span class="lab">ARS GOETIA · 54</span><b>MURMUR</b><small>무르무르 · 기록 봉인</small></span></button>
 <div class="vx-file sealed" data-reveal data-d="4"><span class="ph"><span class="q">?</span><span class="scan animate__animated animate__infinite animate__slideOutDown animate__slower animate__delay-1s"></span></span><span class="cap"><span class="lab">HOUSE 05 / ———</span><b>?</b><small>기록 봉인</small></span></div>
 </div>
-  <dialog class="vx-modal" id="file-house-astaroth" aria-labelledby="file-house-astaroth-name">
-    <div class="vx-modal-bar"><span>HOUSE RECORD · 01</span><button type="button" class="vx-x" data-close>닫기<i></i></button></div>
-    <div class="vx-pf">
-      <div class="vx-pf-ph house"><span class="crest" style="background-image:url(images/astaroth_emblem.png);inset:14% 8% 22%"></span><span class="ph-note">ARS GOETIA · 29</span></div>
-      <div class="vx-pf-top">
-        <span class="lab">HOUSE 01 · ARS GOETIA 29</span>
-        <h3 id="file-house-astaroth-name">ASTAROTH<small>하우스 아스타로트</small></h3>
-        <p class="quote">고대 악마 아스타로트의 이름을 이은, 아주 오래된 하우스.</p>
-        <div class="vx-kv"><div><span>가주</span><b>발레르 모르베인</b><i class="mk" style="background-image:url(images/ravensmere_crest.png)"></i></div><div><span>표면</span><b>모르베인 가문</b></div><div><span>이능</span><b>OMNISCIENTIA</b></div><div><span>진영</span><b>베일워드</b><i class="mk" style="background-image:url(images/veilward_crest.png)"></i></div></div>
-      </div>
-    </div>
-    <div class="vx-pf-body"><div class="vx-pf-rows"><div><span>개요<small>OVERVIEW</small></span><p>《아르스 고에티아》의 악마 아스타로트와 이어진, 숨겨진 고대 잉글랜드 귀족 하우스. 혈통을 잇는 구성원 가운데 일부만 능력이 발현한다.</p></div><div><span>두 이름<small>TWO NAMES</small></span><p>법적 기록과 언론, 사업, 사교계에서는 <b class="em">모르베인</b>. 하우스 정치와 초자연 혈통, 오컬트 문제에서는 <b class="em">아스타로트</b>. 한 사람이 두 사회에 함께 속한 것이고, 아스타로트를 일상의 성으로 쓰지는 않는다. 모르베인과 아스타로트, 아스토라스가 이어져 있다는 사실은 일반 사회에 알려져 있지 않다.</p></div><div><span>가주<small>HEAD</small></span><p>현 가주는 발레르 모르베인, 레이븐스미어 공작. 공식 약력에는 적히지 않은 직함이고, 관련 기록은 전부 열람이 제한되어 있다.</p></div><div><span>세습 이능<small>HEREDITARY</small></span><p><b class="em serif">OMNISCIENTIA</b> <span class="mute">옴니시엔티아 · 라틴어 omnis(전부) + scientia(앎)</span><br>하우스 아스타로트의 최상위 세습 이능.<span class="vx-hk"><i>계시<small>Revelation</small></i><b>과거, 현재, 미래의 정보.</b></span><span class="vx-hk"><i>간파<small>Penetration</small></i><b>숨겨진 진실을 꿰뚫어 본다.</b></span><span class="vx-hk"><i>학식<small>Erudition</small></i><b>학문과 지식에 대한 초자연적 친화력. 셋 중 가장 낮은 단계.</b></span><span class="vx-hq">“모든 걸 알 수 있지만, 그것이 답을 얻는 것은 아니다.”</span><span class="mute small">안다고 해서 통제하거나 막을 수 있는 것은 아니며, 예지가 늘 확실한 것도 아니다.</span></p></div><div><span>산하<small>HOLDINGS</small></span><p><b class="em">ASTORAS GROUP</b> · 런던에 본사를 둔 국제 금융·투자 그룹. 하우스 아스타로트가 세우고 지배한다.</p></div><div><span>전승<small>LORE</small></span><p>《아르스 고에티아》의 29번째 악마이자 지옥의 대공작. 과거와 현재, 미래를 알고 숨겨진 비밀을 밝힌다고 전한다.</p></div><div><span>기록 없음<small>UNRECORDED</small></span><p>모르베인과 아스타로트의 역사적 관계. 이능이 이어지는 방식과 깨어나는 조건, 그 대가.</p></div></div></div>
-    <div class="vx-pf-foot"><div style="display:flex;flex-wrap:wrap;gap:8px"><a class="vx-btn" href="valer.html">현 가주 · 발레르 모르베인 기록 <span>→</span></a></div></div>
-  </dialog>
-  <dialog class="vx-modal" id="file-house-bael" aria-labelledby="file-house-bael-name">
-    <div class="vx-modal-bar"><span>HOUSE RECORD · 02</span><button type="button" class="vx-x" data-close>닫기<i></i></button></div>
-    <div class="vx-pf">
-      <div class="vx-pf-ph house"><span class="sigil"><svg viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="54" fill="none" stroke="#ca5" stroke-width="1"/><circle cx="60" cy="60" r="47" fill="none" stroke="#ca5" stroke-width=".6" stroke-dasharray="2 3"/><circle cx="60" cy="60" r="34" fill="none" stroke="#cca55588" stroke-width=".6"/><path d="M60 6v10M60 104v10M6 60h10M104 60h10" stroke="#ca5" stroke-width="1"/><text x="60" y="73" text-anchor="middle" font-family="Noto Serif,serif" font-size="38" font-weight="700" fill="#e8ce96">B</text></svg></span><span class="ph-note">ARS GOETIA · 01</span></div>
-      <div class="vx-pf-top">
-        <span class="lab">HOUSE 02 · ARS GOETIA 01</span>
-        <h3 id="file-house-bael-name">BAEL<small>하우스 바엘</small></h3>
-        <p class="quote">첫 번째 악마, 동방을 다스리는 왕의 이름.</p>
-        <div class="vx-kv"><div><span>혈통</span><b>기록 봉인</b></div><div><span>가주</span><b>기록 없음</b></div><div><span>이능</span><b>기록 없음</b></div></div>
-      </div>
-    </div>
-    <div class="vx-pf-body"><div class="vx-pf-rows"><div><span>전승<small>LORE</small></span><p>《아르스 고에티아》의 첫 번째 악마. 동방을 다스리는 왕이다. 가나안의 폭풍신 바알이 악마로 끌어내려진 이름이라, 번개와 황소 뿔을 상징으로 삼는다.</p></div><div><span>기록 봉인<small>SEALED</small></span><p>이 하우스의 혈통으로 알려진 인물, 가주와 구성원, 세습 이능. 기록은 차례로 열린다.</p></div></div></div>
-
-  </dialog>
-  <dialog class="vx-modal" id="file-house-dantalion" aria-labelledby="file-house-dantalion-name">
-    <div class="vx-modal-bar"><span>HOUSE RECORD · 03</span><button type="button" class="vx-x" data-close>닫기<i></i></button></div>
-    <div class="vx-pf">
-      <div class="vx-pf-ph house"><span class="sigil"><svg viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="54" fill="none" stroke="#ca5" stroke-width="1"/><circle cx="60" cy="60" r="47" fill="none" stroke="#ca5" stroke-width=".6" stroke-dasharray="2 3"/><circle cx="60" cy="60" r="34" fill="none" stroke="#cca55588" stroke-width=".6"/><path d="M60 6v10M60 104v10M6 60h10M104 60h10" stroke="#ca5" stroke-width="1"/><text x="60" y="73" text-anchor="middle" font-family="Noto Serif,serif" font-size="38" font-weight="700" fill="#e8ce96">D</text></svg></span><span class="ph-note">ARS GOETIA · 71</span></div>
-      <div class="vx-pf-top">
-        <span class="lab">HOUSE 03 · ARS GOETIA 71</span>
-        <h3 id="file-house-dantalion-name">DANTALION<small>하우스 단탈리온</small></h3>
-        <p class="quote">수많은 얼굴을 하고 오른손에 책을 든 대공작의 이름.</p>
-        <div class="vx-kv"><div><span>혈통</span><b>기록 봉인</b></div><div><span>가주</span><b>기록 없음</b></div><div><span>이능</span><b>기록 없음</b></div></div>
-      </div>
-    </div>
-    <div class="vx-pf-body"><div class="vx-pf-rows"><div><span>전승<small>LORE</small></span><p>《아르스 고에티아》의 71번째 악마이자 대공작. 수많은 남녀의 얼굴을 하고 오른손에 책을 든 모습으로 나타나, 모든 학문을 가르친다고 전한다.</p></div><div><span>기록 봉인<small>SEALED</small></span><p>이 하우스의 혈통으로 알려진 인물, 가주와 구성원, 세습 이능. 기록은 차례로 열린다.</p></div></div></div>
-
-  </dialog>
-  <dialog class="vx-modal" id="file-house-murmur" aria-labelledby="file-house-murmur-name">
-    <div class="vx-modal-bar"><span>HOUSE RECORD · 04</span><button type="button" class="vx-x" data-close>닫기<i></i></button></div>
-    <div class="vx-pf">
-      <div class="vx-pf-ph house"><span class="sigil"><svg viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="54" fill="none" stroke="#ca5" stroke-width="1"/><circle cx="60" cy="60" r="47" fill="none" stroke="#ca5" stroke-width=".6" stroke-dasharray="2 3"/><circle cx="60" cy="60" r="34" fill="none" stroke="#cca55588" stroke-width=".6"/><path d="M60 6v10M60 104v10M6 60h10M104 60h10" stroke="#ca5" stroke-width="1"/><text x="60" y="73" text-anchor="middle" font-family="Noto Serif,serif" font-size="38" font-weight="700" fill="#e8ce96">M</text></svg></span><span class="ph-note">ARS GOETIA · 54</span></div>
-      <div class="vx-pf-top">
-        <span class="lab">HOUSE 04 · ARS GOETIA 54</span>
-        <h3 id="file-house-murmur-name">MURMUR<small>하우스 무르무르</small></h3>
-        <p class="quote">그리핀을 타고 나팔 소리와 함께 오는 대공작의 이름.</p>
-        <div class="vx-kv"><div><span>혈통</span><b>기록 봉인</b></div><div><span>가주</span><b>기록 없음</b></div><div><span>이능</span><b>기록 없음</b></div></div>
-      </div>
-    </div>
-    <div class="vx-pf-body"><div class="vx-pf-rows"><div><span>전승<small>LORE</small></span><p>《아르스 고에티아》의 54번째 악마. 대공작이자 백작으로, 공작관을 쓰고 그리핀을 탄 전사의 모습으로 나팔 소리와 함께 나타난다. 철학을 가르치고, 죽은 자의 혼을 불러 답하게 한다고 전한다.</p></div><div><span>기록 봉인<small>SEALED</small></span><p>이 하우스의 혈통으로 알려진 인물, 가주와 구성원, 세습 이능. 기록은 차례로 열린다.</p></div></div></div>
-
-  </dialog>
-
-    </div>
-  </section>
-
-  <!-- 02 THE UNBOUND -->
-  <section id="unbound" class="vx-pad vx-plate" style="padding-bottom:24px">
-    <div class="vx-wm unbound" aria-hidden="true"><svg viewBox="0 0 400 290" aria-hidden="true"><g fill="none" stroke="currentColor"><path d="M235 44.4 A70 70 0 1 1 165 44.4" stroke-width="7" stroke-linecap="round"/><circle cx="200" cy="105" r="54" stroke-width="1.4" stroke-dasharray="3 5"/><rect x="228" y="22" width="22" height="12" rx="6" stroke-width="4" transform="rotate(-62 239 28)"/><rect x="150" y="22" width="22" height="12" rx="6" stroke-width="4" transform="rotate(62 161 28)"/></g><path fill="currentColor" d="M200 66 L208 97 L239 105 L208 113 L200 144 L192 113 L161 105 L192 97 Z"/><text x="200" y="228" text-anchor="middle" font-family="Noto Serif,serif" font-size="36" font-weight="700" letter-spacing="8" fill="currentColor">THE UNBOUND</text><path d="M56 257H113 M287 257H344" stroke="currentColor" stroke-width="1.4"/><text x="200" y="262" text-anchor="middle" font-family="Noto Serif,serif" font-size="13" letter-spacing="6" fill="currentColor">LIBERATION</text></svg></div>
-    <header class="vx-ch"><div class="vx-ch-row"><b class="vx-ch-no"><i>02</i></b><span>THE UNBOUND · 해방을 바라는 자들</span></div>
-      <h2 class="vx-ch-t"><b>언바운드</b><em>The Unbound</em></h2>
-    </header>
-    <div class="vx-fhead" data-reveal>
-      <div class="vx-seal" style="--c:#8E6BBF"><div><i style="background-image:url(images/unbound_seal.png)"></i><b class="animate__animated animate__infinite animate__slideOutRight animate__slower animate__delay-1s"></b></div></div>
-      <div style="display:grid;gap:12px">
-        <div style="display:flex;flex-wrap:wrap;gap:6px"><span class="vx-tag" style="color:#d8b4fe;box-shadow:inset 0 0 0 1px #86b">조직 아님</span><span class="vx-tag" style="color:#d8b4fe;box-shadow:inset 0 0 0 1px #86b">이동의 자유</span><span class="vx-tag" style="color:#d8b4fe;box-shadow:inset 0 0 0 1px #86b">현실로의 확장</span></div>
-        <p style="margin:0;font-size:17px;line-height:1.8;color:#fef3c7;font-weight:700">인외의 해방과 현실로의 확장을 꿈꾸는 자들. 하나의 조직이 아니라 뿔뿔이 흩어져 있어서, 베일워드는 이들을 위험 등급으로만 분류한다.</p>
-        <p style="margin:0;color:#d6d3d1">대부분은 인외지만, 뜻을 같이하는 인간도 소수 있다. 공동의 지도부도, 지휘 체계도 없다.</p>
-      </div>
-    </div>
-
-    <div class="vx-notice" style="margin-top:22px" data-reveal><span>CAUSE · 명분</span><p>인외도 밤의 협약에 서명했다. 하지만 인외는 너무 많은 탄압으로 지워졌다는 게 그들의 주장이다. <b>그들은 해방을 원한다.</b></p></div>
-
-    <div class="vx-sub"><i></i><b>위험 등급</b><span>DANGER GRADE · 성실청 분류</span></div>
-    <div class="vx-grades five">
-      <div class="vx-grade" style="--g:linear-gradient(160deg,#7d5ea6,#6B4E8F 60%,#5a4079)" data-reveal><div class="r">Ⅰ<small>GRADE 01</small></div><div><b>황혼</b><span>DUSK</span></div></div>
-      <i class="vx-garrow" aria-hidden="true">→</i>
-      <div class="vx-grade" style="--g:linear-gradient(160deg,#5a4484,#4A3570 60%,#3c2b5c)" data-reveal data-d="1"><div class="r">Ⅱ<small>GRADE 02</small></div><div><b>야음</b><span>NIGHTFALL</span></div></div>
-      <i class="vx-garrow" aria-hidden="true">→</i>
-      <div class="vx-grade" style="--g:linear-gradient(160deg,#3a2a5f,#2C1F4A 60%,#21173a)" data-reveal data-d="2"><div class="r">Ⅲ<small>GRADE 03</small></div><div><b>자정</b><span>MIDNIGHT</span></div></div>
-      <i class="vx-garrow" aria-hidden="true">→</i>
-      <div class="vx-grade" style="--g:linear-gradient(160deg,#1f1438,#120B22 60%,#08050f)" data-reveal data-d="3"><div class="r">Ⅳ<small>GRADE 04</small></div><div><b>미명</b><span>SMALL HOURS</span></div></div>
-      <i class="vx-garrow" aria-hidden="true">→</i>
-      <div class="vx-grade dawn" style="--g:linear-gradient(160deg,#120B22,#2a1830 55%,#6b3a3a);box-shadow:inset 0 0 0 1px #e8ce9699" data-reveal data-d="4"><em class="vx-maxthreat">최고 위험</em><div class="r">Ⅴ<small>GRADE 05</small></div><div><b>여명</b><span>DAWN · 오직 7인</span></div></div>
-    </div>
-    <div class="vx-scale"><span>DUSK</span><span></span><span>DAWN · 밤이 끝나는 시각</span></div>
-    <div class="vx-notice" style="margin-top:16px" data-reveal><span>NOTE</span><p>등급은 성실청이 매기는 <b>위협 평가일 뿐, 언바운드 안의 서열이 아니다.</b> <span class="vx-aside">(하지만 어째서인지 위험 등급이 높을수록 서열도 높다.)</span> 밤이 깊어지는 순서대로 위험하고, <b>여명</b>에는 단 일곱, 가장 위험한 자들의 이명만 적혀 있다.</p></div>
-
-    <div class="vx-sub"><i></i><b>언바운드 7인</b><span>THE UNBOUND SEVEN</span></div>
-    <p style="margin:0 0 14px;color:#d6d3d1;max-width:640px">언바운드 진영을 대표하는 7인의 거물들. 주로 성실청이 지은 일곱 죄악의 이명으로 부른다.</p>
-    <div class="vx-seven sins">
-      <div data-reveal><span class="q">?</span><span class="no">SEVEN / 01</span><div><b>Pride</b><small>교만</small></div><div class="meta"><i>진명 미상</i><i class="on">여명</i></div></div>
-      <div data-reveal data-d="1"><span class="q">?</span><span class="no">SEVEN / 02</span><div><b>Greed</b><small>탐욕</small></div><div class="meta"><i>진명 미상</i><i class="on">여명</i></div></div>
-      <div data-reveal data-d="2"><span class="q">?</span><span class="no">SEVEN / 03</span><div><b>Gluttony</b><small>탐식</small></div><div class="meta"><i>진명 미상</i><i class="on">여명</i></div></div>
-      <div data-reveal data-d="3"><span class="q">?</span><span class="no">SEVEN / 04</span><div><b>Lust</b><small>색욕</small></div><div class="meta"><i>진명 미상</i><i class="on">여명</i></div></div>
-      <div data-reveal><span class="q">?</span><span class="no">SEVEN / 05</span><div><b>Envy</b><small>질투</small></div><div class="meta"><i>진명 미상</i><i class="on">여명</i></div></div>
-      <div data-reveal data-d="1"><span class="q">?</span><span class="no">SEVEN / 06</span><div><b>Wrath</b><small>분노</small></div><div class="meta"><i>진명 미상</i><i class="on">여명</i></div></div>
-      <div data-reveal data-d="2"><span class="q">?</span><span class="no">SEVEN / 07</span><div><b>Sloth</b><small>나태</small></div><div class="meta"><i>진명 미상</i><i class="on">여명</i></div></div>
-    </div>
-
-    <div class="vx-sub"><i></i><b>주요 세력가</b><span>NOTABLE POWERS</span></div>
-    <div class="vx-files powers">
-<div class="vx-file sealed" data-reveal><span class="ph"><span class="seal" style="background-image:url(images/unbound_seal.png)"></span><span class="q" style="color:#d8b4fe;text-shadow:0 0 18px #86b6">?</span><span class="scan animate__animated animate__infinite animate__slideOutDown animate__slower"></span></span><span class="cap"><span class="lab" style="color:#d8b4fe">POWER 01 / 세력가</span><b>?</b><small>?</small></span></div>
-<div class="vx-file sealed" data-reveal data-d="1"><span class="ph"><span class="seal" style="background-image:url(images/unbound_seal.png)"></span><span class="q" style="color:#d8b4fe;text-shadow:0 0 18px #86b6">?</span><span class="scan animate__animated animate__infinite animate__slideOutDown animate__slower animate__delay-1s"></span></span><span class="cap"><span class="lab" style="color:#d8b4fe">POWER 02 / 세력가</span><b>?</b><small>?</small></span></div>
-<div class="vx-file sealed" data-reveal data-d="2"><span class="ph"><span class="seal" style="background-image:url(images/unbound_seal.png)"></span><span class="q" style="color:#d8b4fe;text-shadow:0 0 18px #86b6">?</span><span class="scan animate__animated animate__infinite animate__slideOutDown animate__slower animate__delay-2s"></span></span><span class="cap"><span class="lab" style="color:#d8b4fe">POWER 03 / 세력가</span><b>?</b><small>?</small></span></div>
-    </div>
-    <p style="margin:12px 0 0;font-size:13.5px;color:#a8a29e">누구도 언바운드 전체를 지휘하지는 않는다. 세력가들은 저마다 한 노선으로 기울 뿐, 각 진영 안에도 이견이 있다. 이들의 이름은 알려지지 않았다.</p>
-
-    <div class="vx-sub"><i></i><b>내부 노선</b><span>FACTIONS WITHIN</span></div>
-    <div class="vx-grid3">
-      <div class="vx-card" style="padding:18px 20px" data-reveal><span class="lab">01</span><h3 style="font-size:19px">평화 공존파</h3></div>
-      <div class="vx-card" style="padding:18px 20px" data-reveal data-d="1"><span class="lab">02</span><h3 style="font-size:19px">확장파</h3></div>
-      <div class="vx-card" style="padding:18px 20px" data-reveal data-d="2"><span class="lab">03</span><h3 style="font-size:19px">급진 해방파</h3></div>
-    </div>
-
-    <div class="vx-sub"><i></i><b>밤의 장소</b><span>HAUNTS</span></div>
-    <div class="vx-grid2">
-      <article class="vx-card" data-reveal><span class="lab">CLUB · 지하 클럽</span><h3>언릿<small>The Unlit</small></h3><p>인외가 존재감을 숨기지 않는 지하 클럽.</p></article>
-      <article class="vx-card" data-reveal data-d="1"><span class="lab">NIGHT MARKET · 밤시장</span><h3>고블린 마켓<small>Goblin Market</small></h3><p>요정길 지도에 없는 샛길에서 열리는 밤시장. 열릴 때마다 자리가 바뀐다.</p></article>
-    </div>
-  </section>
-
-  <!-- 03 UNSWORN -->
-  <section id="unsworn" class="vx-pad vx-plate" style="padding-bottom:24px">
-    <div class="vx-wm unsworn" aria-hidden="true"><svg viewBox="0 0 400 290" aria-hidden="true"><g fill="none" stroke="currentColor"><circle cx="200" cy="105" r="78" stroke-width="1.4"/><circle cx="200" cy="105" r="70" stroke-width="1" stroke-dasharray="2 4"/></g><path fill="currentColor" d="M200.0 45.0 L203.4 96.7 L221.2 83.8 L208.3 101.6 L260.0 105.0 L208.3 108.4 L221.2 126.2 L203.4 113.3 L200.0 165.0 L196.6 113.3 L178.8 126.2 L191.7 108.4 L140.0 105.0 L191.7 101.6 L178.8 83.8 L196.6 96.7 Z"/><path fill="currentColor" d="M118 82 A26 26 0 1 0 118 128 A20 20 0 1 1 118 82 Z"/><path fill="currentColor" d="M282 82 A26 26 0 1 1 282 128 A20 20 0 1 0 282 82 Z"/><text x="200" y="228" text-anchor="middle" font-family="Noto Serif,serif" font-size="40" font-weight="700" letter-spacing="10" fill="currentColor">UNSWORN</text><path d="M56 257H106 M294 257H344" stroke="currentColor" stroke-width="1.4"/><text x="200" y="262" text-anchor="middle" font-family="Noto Serif,serif" font-size="13" letter-spacing="6" fill="currentColor">INDEPENDENT</text></svg></div>
-    <header class="vx-ch"><div class="vx-ch-row"><b class="vx-ch-no"><i>03</i></b><span>UNSWORN · 중립 · 무소속</span></div>
-      <h2 class="vx-ch-t"><b>언스원</b><em>Unsworn</em></h2>
-    </header>
-    <div class="vx-fhead" data-reveal>
-      <div class="vx-seal" style="--c:#B07A3E"><div><i style="background-image:url(images/unsworn_seal.png)"></i><b class="animate__animated animate__infinite animate__slideOutRight animate__slower animate__delay-2s"></b></div></div>
-      <div style="display:grid;gap:12px">
-        <div style="display:flex;flex-wrap:wrap;gap:6px"><span class="vx-tag" style="color:#fdba74;box-shadow:inset 0 0 0 1px #a74">독립</span><span class="vx-tag" style="color:#fdba74;box-shadow:inset 0 0 0 1px #a74">개인의 동기</span><span class="vx-tag" style="color:#fdba74;box-shadow:inset 0 0 0 1px #a74">인간 · 인외 반반</span></div>
-        <p style="margin:0;font-size:17px;line-height:1.8;color:#fef3c7;font-weight:700">어느 쪽에도 속하지 않은 독립 세력. 정체를 알 수 없는 일곱 인외가 이끈다. 그렇다고 반드시 중립을 지키는 것은 아니라고 한다.</p>
-        <p style="margin:0;color:#d6d3d1">이념보다 개인의 동기가 앞선다. 양쪽과 거래하고 손잡고 부딪히기도 하지만, 세력 균형을 지킬 의무는 없다. 구성원은 인간과 인외가 대략 반반이다. 분류할 수 없는, 기묘한 존재들이 많다.</p>
-      </div>
-    </div>
-
-    <div class="vx-sub"><i></i><b>언스원 7인</b><span>THE UNSWORN SEVEN</span></div>
-    <div class="vx-seven">
-      <div data-reveal><span class="q">?</span><span class="no">SEVEN / 01</span><div><b>얼굴 없는 증인</b><small>The Faceless Witness</small></div><div class="meta"><i>진명 미상</i></div></div>
-      <div data-reveal data-d="1"><span class="q">?</span><span class="no">SEVEN / 02</span><div><b>시간 거래자</b><small>The Time Trader</small></div><div class="meta"><i>진명 미상</i></div></div>
-      <div data-reveal data-d="2"><span class="q">?</span><span class="no">SEVEN / 03</span><div><b>이름 포식자</b><small>The Name Devourer</small></div><div class="meta"><i>진명 미상</i><i class="on">정보상</i></div></div>
-      <div data-reveal data-d="3"><span class="q">?</span><span class="no">SEVEN / 04</span><div><b>경계의 문지기</b><small>The Keeper of the Threshold</small></div><div class="meta"><i>진명 미상</i><i class="on">게이트 협조</i></div></div>
-      <div data-reveal><span class="q">?</span><span class="no">SEVEN / 05</span><div><b>망각 수집가</b><small>The Collector of Oblivion</small></div><div class="meta"><i>진명 미상</i></div></div>
-      <div data-reveal data-d="1"><span class="q">?</span><span class="no">SEVEN / 06</span><div><b>잊힌 신의 대리인</b><small>The Agent of a Forgotten God</small></div><div class="meta"><i>진명 미상</i></div></div>
-      <div data-reveal data-d="2"><span class="q">?</span><span class="no">SEVEN / 07</span><div><b>종말 유예자</b><small>The Doomsday Deferrer</small></div><div class="meta"><i>진명 미상</i></div></div>
-    </div>
-    <p style="margin:12px 0 0;font-size:13.5px;color:#a8a29e">7인 외에도 두 세력에 속하고 싶지 않은 자, 중립을 원하는 자, 둘 다에게 이득을 취하고 싶은 자들이 언스원으로 몰린다.</p>
-    <a class="vx-next" href="personnel.html" data-reveal><div><span>NEXT · PERSONNEL</span><b>인물 명부</b></div><span class="vx-arrow">→</span></a>
-  </section>
-
-
+<dialog class="vx-modal" id="file-house-astaroth" aria-labelledby="file-house-astaroth-name">
+<div class="vx-modal-bar"><span>HOUSE RECORD · 01</span><button type="button" class="vx-x" data-close>닫기<i></i></button></div>
+<div class="vx-pf">
+<div class="vx-pf-ph house"><span class="crest" style="background-image:url(images/astaroth_emblem.webp);inset:14% 8% 22%"></span><span class="ph-note">ARS GOETIA · 29</span></div>
+<div class="vx-pf-top">
+<span class="lab">HOUSE 01 · ARS GOETIA 29</span>
+<h2 id="file-house-astaroth-name">ASTAROTH<small>하우스 아스타로트</small></h2>
+<p class="quote">고대 악마 아스타로트의 이름을 이은, 아주 오래된 하우스.</p>
+<div class="vx-kv"><div><span>가주</span><b>발레르 모르베인</b><i class="mk" style="background-image:url(images/ravensmere_crest.webp)"></i></div><div><span>표면</span><b>모르베인 가문</b></div><div><span>이능</span><b>OMNISCIENTIA</b></div><div><span>진영</span><b>베일워드</b><i class="mk" style="background-image:url(images/veilward_crest.webp)"></i></div></div>
+</div>
+</div>
+<div class="vx-pf-body"><div class="vx-pf-rows"><div><span>개요<small>OVERVIEW</small></span><p>《아르스 고에티아》의 악마 아스타로트와 이어진, 숨겨진 고대 잉글랜드 귀족 하우스. 혈통을 잇는 구성원 가운데 일부만 능력이 발현한다.</p></div><div><span>두 이름<small>TWO NAMES</small></span><p>법적 기록과 언론, 사업, 사교계에서는 <b class="em">모르베인</b>. 하우스 정치와 초자연 혈통, 오컬트 문제에서는 <b class="em">아스타로트</b>. 한 사람이 두 사회에 함께 속한 것이고, 아스타로트를 일상의 성으로 쓰지는 않는다. 모르베인과 아스타로트, 아스토라스가 이어져 있다는 사실은 일반 사회에 알려져 있지 않다.</p></div><div><span>가주<small>HEAD</small></span><p>현 가주는 발레르 모르베인, 레이븐스미어 공작. 공식 약력에는 적히지 않은 직함이고, 관련 기록은 전부 열람이 제한되어 있다.</p></div><div><span>세습 이능<small>HEREDITARY</small></span><p><b class="em serif">OMNISCIENTIA</b> <span class="mute">옴니시엔티아 · 라틴어 omnis(전부) + scientia(앎)</span><br>하우스 아스타로트의 최상위 세습 이능.<span class="vx-hk"><i>계시<small>Revelation</small></i><b>과거, 현재, 미래의 정보.</b></span><span class="vx-hk"><i>간파<small>Penetration</small></i><b>숨겨진 진실을 꿰뚫어 본다.</b></span><span class="vx-hk"><i>학식<small>Erudition</small></i><b>학문과 지식에 대한 초자연적 친화력. 셋 중 가장 낮은 단계.</b></span><span class="vx-hq">“모든 걸 알 수 있지만, 그것이 답을 얻는 것은 아니다.”</span><span class="mute small">안다고 해서 통제하거나 막을 수 있는 것은 아니며, 예지가 늘 확실한 것도 아니다.</span></p></div><div><span>산하<small>HOLDINGS</small></span><p><b class="em">ASTORAS GROUP</b> · 런던에 본사를 둔 국제 금융·투자 그룹. 하우스 아스타로트가 세우고 지배한다.</p></div><div><span>전승<small>LORE</small></span><p>《아르스 고에티아》의 29번째 악마이자 지옥의 대공작. 과거와 현재, 미래를 알고 숨겨진 비밀을 밝힌다고 전한다.</p></div><div><span>기록 없음<small>UNRECORDED</small></span><p>모르베인과 아스타로트의 역사적 관계. 이능이 이어지는 방식과 깨어나는 조건, 그 대가.</p></div></div></div>
+<div class="vx-pf-foot"><div style="display:flex;flex-wrap:wrap;gap:8px"><a class="vx-btn" href="valer.html">현 가주 · 발레르 모르베인 기록 <span>→</span></a></div></div>
+</dialog>
+<dialog class="vx-modal" id="file-house-bael" aria-labelledby="file-house-bael-name">
+<div class="vx-modal-bar"><span>HOUSE RECORD · 02</span><button type="button" class="vx-x" data-close>닫기<i></i></button></div>
+<div class="vx-pf">
+<div class="vx-pf-ph house"><span class="sigil"><svg viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="54" fill="none" stroke="#ca5" stroke-width="1"/><circle cx="60" cy="60" r="47" fill="none" stroke="#ca5" stroke-width=".6" stroke-dasharray="2 3"/><circle cx="60" cy="60" r="34" fill="none" stroke="#cca55588" stroke-width=".6"/><path d="M60 6v10M60 104v10M6 60h10M104 60h10" stroke="#ca5" stroke-width="1"/><text x="60" y="73" text-anchor="middle" font-family="Noto Serif,serif" font-size="38" font-weight="700" fill="#e8ce96">B</text></svg></span><span class="ph-note">ARS GOETIA · 01</span></div>
+<div class="vx-pf-top">
+<span class="lab">HOUSE 02 · ARS GOETIA 01</span>
+<h2 id="file-house-bael-name">BAEL<small>하우스 바엘</small></h2>
+<p class="quote">첫 번째 악마, 동방을 다스리는 왕의 이름.</p>
+<div class="vx-kv"><div><span>혈통</span><b>기록 봉인</b></div><div><span>가주</span><b>기록 없음</b></div><div><span>이능</span><b>기록 없음</b></div></div>
+</div>
+</div>
+<div class="vx-pf-body"><div class="vx-pf-rows"><div><span>전승<small>LORE</small></span><p>《아르스 고에티아》의 첫 번째 악마. 동방을 다스리는 왕이다. 가나안의 폭풍신 바알이 악마로 끌어내려진 이름이라, 번개와 황소 뿔을 상징으로 삼는다.</p></div><div><span>기록 봉인<small>SEALED</small></span><p>이 하우스의 혈통으로 알려진 인물, 가주와 구성원, 세습 이능. 기록은 차례로 열린다.</p></div></div></div>
+</dialog>
+<dialog class="vx-modal" id="file-house-dantalion" aria-labelledby="file-house-dantalion-name">
+<div class="vx-modal-bar"><span>HOUSE RECORD · 03</span><button type="button" class="vx-x" data-close>닫기<i></i></button></div>
+<div class="vx-pf">
+<div class="vx-pf-ph house"><span class="sigil"><svg viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="54" fill="none" stroke="#ca5" stroke-width="1"/><circle cx="60" cy="60" r="47" fill="none" stroke="#ca5" stroke-width=".6" stroke-dasharray="2 3"/><circle cx="60" cy="60" r="34" fill="none" stroke="#cca55588" stroke-width=".6"/><path d="M60 6v10M60 104v10M6 60h10M104 60h10" stroke="#ca5" stroke-width="1"/><text x="60" y="73" text-anchor="middle" font-family="Noto Serif,serif" font-size="38" font-weight="700" fill="#e8ce96">D</text></svg></span><span class="ph-note">ARS GOETIA · 71</span></div>
+<div class="vx-pf-top">
+<span class="lab">HOUSE 03 · ARS GOETIA 71</span>
+<h2 id="file-house-dantalion-name">DANTALION<small>하우스 단탈리온</small></h2>
+<p class="quote">수많은 얼굴을 하고 오른손에 책을 든 대공작의 이름.</p>
+<div class="vx-kv"><div><span>혈통</span><b>기록 봉인</b></div><div><span>가주</span><b>기록 없음</b></div><div><span>이능</span><b>기록 없음</b></div></div>
+</div>
+</div>
+<div class="vx-pf-body"><div class="vx-pf-rows"><div><span>전승<small>LORE</small></span><p>《아르스 고에티아》의 71번째 악마이자 대공작. 수많은 남녀의 얼굴을 하고 오른손에 책을 든 모습으로 나타나, 모든 학문을 가르친다고 전한다.</p></div><div><span>기록 봉인<small>SEALED</small></span><p>이 하우스의 혈통으로 알려진 인물, 가주와 구성원, 세습 이능. 기록은 차례로 열린다.</p></div></div></div>
+</dialog>
+<dialog class="vx-modal" id="file-house-murmur" aria-labelledby="file-house-murmur-name">
+<div class="vx-modal-bar"><span>HOUSE RECORD · 04</span><button type="button" class="vx-x" data-close>닫기<i></i></button></div>
+<div class="vx-pf">
+<div class="vx-pf-ph house"><span class="sigil"><svg viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="54" fill="none" stroke="#ca5" stroke-width="1"/><circle cx="60" cy="60" r="47" fill="none" stroke="#ca5" stroke-width=".6" stroke-dasharray="2 3"/><circle cx="60" cy="60" r="34" fill="none" stroke="#cca55588" stroke-width=".6"/><path d="M60 6v10M60 104v10M6 60h10M104 60h10" stroke="#ca5" stroke-width="1"/><text x="60" y="73" text-anchor="middle" font-family="Noto Serif,serif" font-size="38" font-weight="700" fill="#e8ce96">M</text></svg></span><span class="ph-note">ARS GOETIA · 54</span></div>
+<div class="vx-pf-top">
+<span class="lab">HOUSE 04 · ARS GOETIA 54</span>
+<h2 id="file-house-murmur-name">MURMUR<small>하우스 무르무르</small></h2>
+<p class="quote">그리핀을 타고 나팔 소리와 함께 오는 대공작의 이름.</p>
+<div class="vx-kv"><div><span>혈통</span><b>기록 봉인</b></div><div><span>가주</span><b>기록 없음</b></div><div><span>이능</span><b>기록 없음</b></div></div>
+</div>
+</div>
+<div class="vx-pf-body"><div class="vx-pf-rows"><div><span>전승<small>LORE</small></span><p>《아르스 고에티아》의 54번째 악마. 대공작이자 백작으로, 공작관을 쓰고 그리핀을 탄 전사의 모습으로 나팔 소리와 함께 나타난다. 철학을 가르치고, 죽은 자의 혼을 불러 답하게 한다고 전한다.</p></div><div><span>기록 봉인<small>SEALED</small></span><p>이 하우스의 혈통으로 알려진 인물, 가주와 구성원, 세습 이능. 기록은 차례로 열린다.</p></div></div></div>
+</dialog>
+</div>
+</section>
+<section id="unbound" class="vx-pad vx-plate" style="padding-bottom:24px">
+<div class="vx-wm unbound" aria-hidden="true"><svg viewBox="0 0 400 290" aria-hidden="true"><g fill="none" stroke="currentColor"><path d="M235 44.4 A70 70 0 1 1 165 44.4" stroke-width="7" stroke-linecap="round"/><circle cx="200" cy="105" r="54" stroke-width="1.4" stroke-dasharray="3 5"/><rect x="228" y="22" width="22" height="12" rx="6" stroke-width="4" transform="rotate(-62 239 28)"/><rect x="150" y="22" width="22" height="12" rx="6" stroke-width="4" transform="rotate(62 161 28)"/></g><path fill="currentColor" d="M200 66 L208 97 L239 105 L208 113 L200 144 L192 113 L161 105 L192 97 Z"/><text x="200" y="228" text-anchor="middle" font-family="Noto Serif,serif" font-size="36" font-weight="700" letter-spacing="8" fill="currentColor">THE UNBOUND</text><path d="M56 257H113 M287 257H344" stroke="currentColor" stroke-width="1.4"/><text x="200" y="262" text-anchor="middle" font-family="Noto Serif,serif" font-size="13" letter-spacing="6" fill="currentColor">LIBERATION</text></svg></div>
+<header class="vx-ch"><div class="vx-ch-row"><b class="vx-ch-no"><i>02</i></b><span>THE UNBOUND · 해방을 바라는 자들</span></div>
+<h2 class="vx-ch-t"><b>언바운드</b><em>The Unbound</em></h2>
+</header>
+<div class="vx-fhead" data-reveal>
+<div class="vx-seal" style="--c:#8E6BBF"><div><i style="background-image:url(images/unbound_seal.webp)"></i><b class="animate__animated animate__infinite animate__slideOutRight animate__slower animate__delay-1s"></b></div></div>
+<div style="display:grid;gap:12px">
+<div style="display:flex;flex-wrap:wrap;gap:6px"><span class="vx-tag" style="color:#d8b4fe;box-shadow:inset 0 0 0 1px #86b">조직 아님</span><span class="vx-tag" style="color:#d8b4fe;box-shadow:inset 0 0 0 1px #86b">이동의 자유</span><span class="vx-tag" style="color:#d8b4fe;box-shadow:inset 0 0 0 1px #86b">현실로의 확장</span></div>
+<p style="margin:0;font-size:17px;line-height:1.8;color:#fef3c7;font-weight:700">인외의 해방과 현실로의 확장을 꿈꾸는 자들. 하나의 조직이 아니라 뿔뿔이 흩어져 있어서, 베일워드는 이들을 위험 등급으로만 분류한다.</p>
+<p style="margin:0;color:#d6d3d1">대부분은 인외지만, 뜻을 같이하는 인간도 소수 있다. 공동의 지도부도, 지휘 체계도 없다.</p>
+</div>
+</div>
+<div class="vx-notice" style="margin-top:22px" data-reveal><span>CAUSE · 명분</span><p>인외도 밤의 협약에 서명했다. 하지만 인외는 너무 많은 탄압으로 지워졌다는 게 그들의 주장이다. <b>그들은 해방을 원한다.</b></p></div>
+<div class="vx-sub"><i></i><b>위험 등급</b><span>DANGER GRADE · 성실청 분류</span></div>
+<div class="vx-grades five">
+<div class="vx-grade" style="--g:linear-gradient(160deg,#7d5ea6,#6B4E8F 60%,#5a4079)" data-reveal><div class="r">Ⅰ<small>GRADE 01</small></div><div><b>황혼</b><span>DUSK</span></div></div>
+<i class="vx-garrow" aria-hidden="true">→</i>
+<div class="vx-grade" style="--g:linear-gradient(160deg,#5a4484,#4A3570 60%,#3c2b5c)" data-reveal data-d="1"><div class="r">Ⅱ<small>GRADE 02</small></div><div><b>야음</b><span>NIGHTFALL</span></div></div>
+<i class="vx-garrow" aria-hidden="true">→</i>
+<div class="vx-grade" style="--g:linear-gradient(160deg,#3a2a5f,#2C1F4A 60%,#21173a)" data-reveal data-d="2"><div class="r">Ⅲ<small>GRADE 03</small></div><div><b>자정</b><span>MIDNIGHT</span></div></div>
+<i class="vx-garrow" aria-hidden="true">→</i>
+<div class="vx-grade" style="--g:linear-gradient(160deg,#1f1438,#120B22 60%,#08050f)" data-reveal data-d="3"><div class="r">Ⅳ<small>GRADE 04</small></div><div><b>미명</b><span>SMALL HOURS</span></div></div>
+<i class="vx-garrow" aria-hidden="true">→</i>
+<div class="vx-grade dawn" style="--g:linear-gradient(160deg,#120B22,#2a1830 55%,#6b3a3a);box-shadow:inset 0 0 0 1px #e8ce9699" data-reveal data-d="4"><em class="vx-maxthreat">최고 위험</em><div class="r">Ⅴ<small>GRADE 05</small></div><div><b>여명</b><span>DAWN · 오직 7인</span></div></div>
+</div>
+<div class="vx-scale"><span>DUSK</span><span></span><span>DAWN · 밤이 끝나는 시각</span></div>
+<div class="vx-notice" style="margin-top:16px" data-reveal><span>NOTE</span><p>등급은 성실청이 매기는 <b>위협 평가일 뿐, 언바운드 안의 서열이 아니다.</b> <span class="vx-aside">(하지만 어째서인지 위험 등급이 높을수록 서열도 높다.)</span> 밤이 깊어지는 순서대로 위험하고, <b>여명</b>에는 단 일곱, 가장 위험한 자들의 이명만 적혀 있다.</p></div>
+<div class="vx-sub"><i></i><b>언바운드 7인</b><span>THE UNBOUND SEVEN</span></div>
+<p style="margin:0 0 14px;color:#d6d3d1;max-width:640px">언바운드 진영을 대표하는 7인의 거물들. 주로 성실청이 지은 일곱 죄악의 이명으로 부른다.</p>
+<div class="vx-seven sins">
+<div data-reveal><span class="q">?</span><span class="no">SEVEN / 01</span><div><b>Pride</b><small>교만</small></div><div class="meta"><i>진명 미상</i><i class="on">여명</i></div></div>
+<div data-reveal data-d="1"><span class="q">?</span><span class="no">SEVEN / 02</span><div><b>Greed</b><small>탐욕</small></div><div class="meta"><i>진명 미상</i><i class="on">여명</i></div></div>
+<div data-reveal data-d="2"><span class="q">?</span><span class="no">SEVEN / 03</span><div><b>Gluttony</b><small>탐식</small></div><div class="meta"><i>진명 미상</i><i class="on">여명</i></div></div>
+<div data-reveal data-d="3"><span class="q">?</span><span class="no">SEVEN / 04</span><div><b>Lust</b><small>색욕</small></div><div class="meta"><i>진명 미상</i><i class="on">여명</i></div></div>
+<div data-reveal><span class="q">?</span><span class="no">SEVEN / 05</span><div><b>Envy</b><small>질투</small></div><div class="meta"><i>진명 미상</i><i class="on">여명</i></div></div>
+<div data-reveal data-d="1"><span class="q">?</span><span class="no">SEVEN / 06</span><div><b>Wrath</b><small>분노</small></div><div class="meta"><i>진명 미상</i><i class="on">여명</i></div></div>
+<div data-reveal data-d="2"><span class="q">?</span><span class="no">SEVEN / 07</span><div><b>Sloth</b><small>나태</small></div><div class="meta"><i>진명 미상</i><i class="on">여명</i></div></div>
+</div>
+<div class="vx-sub"><i></i><b>주요 세력가</b><span>NOTABLE POWERS</span></div>
+<div class="vx-files powers">
+<div class="vx-file sealed" data-reveal><span class="ph"><span class="seal" style="background-image:url(images/unbound_seal.webp)"></span><span class="q" style="color:#d8b4fe;text-shadow:0 0 18px #86b6">?</span><span class="scan animate__animated animate__infinite animate__slideOutDown animate__slower"></span></span><span class="cap"><span class="lab" style="color:#d8b4fe">POWER 01 / 세력가</span><b>?</b><small>?</small></span></div>
+<div class="vx-file sealed" data-reveal data-d="1"><span class="ph"><span class="seal" style="background-image:url(images/unbound_seal.webp)"></span><span class="q" style="color:#d8b4fe;text-shadow:0 0 18px #86b6">?</span><span class="scan animate__animated animate__infinite animate__slideOutDown animate__slower animate__delay-1s"></span></span><span class="cap"><span class="lab" style="color:#d8b4fe">POWER 02 / 세력가</span><b>?</b><small>?</small></span></div>
+<div class="vx-file sealed" data-reveal data-d="2"><span class="ph"><span class="seal" style="background-image:url(images/unbound_seal.webp)"></span><span class="q" style="color:#d8b4fe;text-shadow:0 0 18px #86b6">?</span><span class="scan animate__animated animate__infinite animate__slideOutDown animate__slower animate__delay-2s"></span></span><span class="cap"><span class="lab" style="color:#d8b4fe">POWER 03 / 세력가</span><b>?</b><small>?</small></span></div>
+</div>
+<p style="margin:12px 0 0;font-size:13.5px;color:#a8a29e">누구도 언바운드 전체를 지휘하지는 않는다. 세력가들은 저마다 한 노선으로 기울 뿐, 각 진영 안에도 이견이 있다. 이들의 이름은 알려지지 않았다.</p>
+<div class="vx-sub"><i></i><b>내부 노선</b><span>FACTIONS WITHIN</span></div>
+<div class="vx-grid3">
+<div class="vx-card" style="padding:18px 20px" data-reveal><span class="lab">01</span><h3 style="font-size:19px">평화 공존파</h3></div>
+<div class="vx-card" style="padding:18px 20px" data-reveal data-d="1"><span class="lab">02</span><h3 style="font-size:19px">확장파</h3></div>
+<div class="vx-card" style="padding:18px 20px" data-reveal data-d="2"><span class="lab">03</span><h3 style="font-size:19px">급진 해방파</h3></div>
+</div>
+<div class="vx-sub"><i></i><b>밤의 장소</b><span>HAUNTS</span></div>
+<div class="vx-grid2">
+<article class="vx-card" data-reveal><span class="lab">CLUB · 지하 클럽</span><h3>언릿<small>The Unlit</small></h3><p>인외가 존재감을 숨기지 않는 지하 클럽.</p></article>
+<article class="vx-card" data-reveal data-d="1"><span class="lab">NIGHT MARKET · 밤시장</span><h3>고블린 마켓<small>Goblin Market</small></h3><p>요정길 지도에 없는 샛길에서 열리는 밤시장. 열릴 때마다 자리가 바뀐다.</p></article>
+</div>
+</section>
+<section id="unsworn" class="vx-pad vx-plate" style="padding-bottom:24px">
+<div class="vx-wm unsworn" aria-hidden="true"><svg viewBox="0 0 400 290" aria-hidden="true"><g fill="none" stroke="currentColor"><circle cx="200" cy="105" r="78" stroke-width="1.4"/><circle cx="200" cy="105" r="70" stroke-width="1" stroke-dasharray="2 4"/></g><path fill="currentColor" d="M200.0 45.0 L203.4 96.7 L221.2 83.8 L208.3 101.6 L260.0 105.0 L208.3 108.4 L221.2 126.2 L203.4 113.3 L200.0 165.0 L196.6 113.3 L178.8 126.2 L191.7 108.4 L140.0 105.0 L191.7 101.6 L178.8 83.8 L196.6 96.7 Z"/><path fill="currentColor" d="M118 82 A26 26 0 1 0 118 128 A20 20 0 1 1 118 82 Z"/><path fill="currentColor" d="M282 82 A26 26 0 1 1 282 128 A20 20 0 1 0 282 82 Z"/><text x="200" y="228" text-anchor="middle" font-family="Noto Serif,serif" font-size="40" font-weight="700" letter-spacing="10" fill="currentColor">UNSWORN</text><path d="M56 257H106 M294 257H344" stroke="currentColor" stroke-width="1.4"/><text x="200" y="262" text-anchor="middle" font-family="Noto Serif,serif" font-size="13" letter-spacing="6" fill="currentColor">INDEPENDENT</text></svg></div>
+<header class="vx-ch"><div class="vx-ch-row"><b class="vx-ch-no"><i>03</i></b><span>UNSWORN · 중립 · 무소속</span></div>
+<h2 class="vx-ch-t"><b>언스원</b><em>Unsworn</em></h2>
+</header>
+<div class="vx-fhead" data-reveal>
+<div class="vx-seal" style="--c:#B07A3E"><div><i style="background-image:url(images/unsworn_seal.webp)"></i><b class="animate__animated animate__infinite animate__slideOutRight animate__slower animate__delay-2s"></b></div></div>
+<div style="display:grid;gap:12px">
+<div style="display:flex;flex-wrap:wrap;gap:6px"><span class="vx-tag" style="color:#fdba74;box-shadow:inset 0 0 0 1px #a74">독립</span><span class="vx-tag" style="color:#fdba74;box-shadow:inset 0 0 0 1px #a74">개인의 동기</span><span class="vx-tag" style="color:#fdba74;box-shadow:inset 0 0 0 1px #a74">인간 · 인외 반반</span></div>
+<p style="margin:0;font-size:17px;line-height:1.8;color:#fef3c7;font-weight:700">어느 쪽에도 속하지 않은 독립 세력. 정체를 알 수 없는 일곱 인외가 이끈다. 그렇다고 반드시 중립을 지키는 것은 아니라고 한다.</p>
+<p style="margin:0;color:#d6d3d1">이념보다 개인의 동기가 앞선다. 양쪽과 거래하고 손잡고 부딪히기도 하지만, 세력 균형을 지킬 의무는 없다. 구성원은 인간과 인외가 대략 반반이다. 분류할 수 없는, 기묘한 존재들이 많다.</p>
+</div>
+</div>
+<div class="vx-sub"><i></i><b>언스원 7인</b><span>THE UNSWORN SEVEN</span></div>
+<div class="vx-seven">
+<div data-reveal><span class="q">?</span><span class="no">SEVEN / 01</span><div><b>얼굴 없는 증인</b><small>The Faceless Witness</small></div><div class="meta"><i>진명 미상</i></div></div>
+<div data-reveal data-d="1"><span class="q">?</span><span class="no">SEVEN / 02</span><div><b>시간 거래자</b><small>The Time Trader</small></div><div class="meta"><i>진명 미상</i></div></div>
+<div data-reveal data-d="2"><span class="q">?</span><span class="no">SEVEN / 03</span><div><b>이름 포식자</b><small>The Name Devourer</small></div><div class="meta"><i>진명 미상</i><i class="on">정보상</i></div></div>
+<div data-reveal data-d="3"><span class="q">?</span><span class="no">SEVEN / 04</span><div><b>경계의 문지기</b><small>The Keeper of the Threshold</small></div><div class="meta"><i>진명 미상</i><i class="on">게이트 협조</i></div></div>
+<div data-reveal><span class="q">?</span><span class="no">SEVEN / 05</span><div><b>망각 수집가</b><small>The Collector of Oblivion</small></div><div class="meta"><i>진명 미상</i></div></div>
+<div data-reveal data-d="1"><span class="q">?</span><span class="no">SEVEN / 06</span><div><b>잊힌 신의 대리인</b><small>The Agent of a Forgotten God</small></div><div class="meta"><i>진명 미상</i></div></div>
+<div data-reveal data-d="2"><span class="q">?</span><span class="no">SEVEN / 07</span><div><b>종말 유예자</b><small>The Doomsday Deferrer</small></div><div class="meta"><i>진명 미상</i></div></div>
+</div>
+<p style="margin:12px 0 0;font-size:13.5px;color:#a8a29e">7인 외에도 두 세력에 속하고 싶지 않은 자, 중립을 원하는 자, 둘 다에게 이득을 취하고 싶은 자들이 언스원으로 몰린다.</p>
+<a class="vx-next" href="personnel.html" data-reveal><div><span>NEXT · PERSONNEL</span><b>인물 명부</b></div><span class="vx-arrow">→</span></a>
+</section>
 </main>
 <i class="vx-deco r"></i><i class="vx-border"></i></div>
 <footer class="vx-foot"><div class="iss"><b>VEILWARD</b><span>· 협약원 봉인 서고 / 일반 열람용 사본</span></div><span>THE UNDERVEIL ARCHIVE</span></footer>
 </div>
-
 </body>
 </html>
