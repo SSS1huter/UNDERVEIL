@@ -823,3 +823,21 @@ button.vx-btn{appearance:none;border:0;cursor:pointer;font:inherit}
   .vx-stamp b{font-size:14px;letter-spacing:.26em;margin-right:-.26em}
 }
 .vx-doctop .l span i{font-style:normal;display:inline-block;white-space:nowrap}
+
+/* 기록 창 사진 자리 = 작은 잡지 표지 (인물 페이지 표지와 같은 구성, 11/25) */
+.vx-pf-ph.is-mag{container-type:inline-size}
+.vx-pf-ph .mag{position:absolute;inset:0;z-index:2;display:flex;flex-direction:column;justify-content:space-between;padding:8% 7% 6%;pointer-events:none;
+  background:linear-gradient(#0a101bd9,#0a101b00 32%,#0a101b00 56%,#0a101bf2 86%)}
+.vx-pf-ph .mag .hd{display:grid;justify-items:start;font-weight:700;font-size:max(10px,4.7cqw);line-height:1.5;color:#f5f5f4;text-shadow:0 1px 6px #000c}
+.vx-pf-ph .mag .hd b{font-weight:900;font-size:13.5cqw;line-height:1.15;color:#fde68a;text-shadow:0 2px 8px #001d}
+.vx-pf-ph .mag .badge{position:absolute;top:6.5%;right:6.5%;display:grid;place-items:center;width:22cqw;height:22cqw;border-radius:50%;border:1px dashed #ca5}
+.vx-pf-ph .mag .badge em{display:grid;place-items:center;width:84%;height:84%;border-radius:50%;border:1px solid #ca5;background:#cca55526;font-family:var(--serif);font-style:normal;font-size:4.3cqw;line-height:1.05;text-align:center;color:#fde68a;transform:rotate(-12deg)}
+.vx-pf-ph .mag .ft{display:grid;gap:5px}
+.vx-pf-ph .mag .en{font-family:var(--serif);font-weight:700;line-height:.9;color:#fef3c7;text-shadow:0 2px 10px #001e,0 0 30px #ca57}
+.vx-pf-ph .mag .row{display:flex;align-items:flex-end;justify-content:space-between;gap:8px}
+.vx-pf-ph .mag .nm{display:grid;font-weight:800;font-size:5.8cqw;line-height:1.2;color:#fde68a}
+.vx-pf-ph .mag .nm small{font-family:var(--mono);font-weight:400;font-size:max(7px,2.9cqw);letter-spacing:.16em;line-height:1.6;color:#ca8a04;white-space:nowrap}
+.vx-pf-ph .mag .bc{display:grid;justify-items:end;gap:3px}
+.vx-pf-ph .mag .bc i{width:27cqw;height:9cqw;background:repeating-linear-gradient(90deg,#ca5 0 2px,#0000 0 4px,#ca5 0 5px,#0000 0 9px,#ca5 0 12px,#0000 0 14px)}
+.vx-pf-ph .mag .bc small{font-family:var(--mono);font-size:max(6.5px,2.4cqw);letter-spacing:.22em;color:#ca8a04;white-space:nowrap}
+.vx-pf-ph.is-mag .crest,.vx-pf-ph.is-mag .ph-note{display:none}
